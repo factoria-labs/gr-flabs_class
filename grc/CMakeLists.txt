@@ -8,4 +8,8 @@
 
 install(FILES
     flabs_class_message_print.block.yml
-    flabs_class_pdu_decode.block.yml DESTINATION share/gnuradio/grc/blocks)
+    flabs_class_pdu_decode.block.yml
+    flabs_class_rx_tuner.block.yml
+    flabs_class_ook_mod.block.yml
+    flabs_class_tx_tuner.block.yml
+    flabs_class_ook_demod.block.yml DESTINATION share/gnuradio/grc/blocks)

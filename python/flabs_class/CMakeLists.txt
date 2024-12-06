@@ -21,7 +21,11 @@ add_subdirectory(bindings)
 ########################################################################
 gr_python_install(FILES __init__.py
     message_print.py
-    pdu_decode.py DESTINATION ${GR_PYTHON_DIR}/gnuradio/flabs_class)
+    pdu_decode.py
+    tx_tuner.py
+    rx_tuner.py
+    ook_mod.py
+    ook_demod.py DESTINATION ${GR_PYTHON_DIR}/gnuradio/flabs_class)
 
 ########################################################################
 # Handle the unit tests
@@ -38,3 +42,7 @@ add_custom_target(
             ${PROJECT_BINARY_DIR}/test_modules/gnuradio/flabs_class/)
 GR_ADD_TEST(qa_message_print ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_message_print.py)
 GR_ADD_TEST(qa_pdu_decode ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_pdu_decode.py)
+GR_ADD_TEST(qa_rx_tuner ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_rx_tuner.py)
+GR_ADD_TEST(qa_ook_mod ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_ook_mod.py)
+GR_ADD_TEST(qa_tx_tuner ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_tx_tuner.py)
+GR_ADD_TEST(qa_ook_demod ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_ook_demod.py)
