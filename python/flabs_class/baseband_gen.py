@@ -43,8 +43,7 @@ class baseband_gen(gr.basic_block):
                  checksum_enable,
                  checksum_offset,
                  pad_byte_count,
-                 tx_spacing,
-                 quiet_between_tx):
+                 tx_spacing):
         gr.basic_block.__init__(self,
             name="baseband_gen",
             in_sig=None,
@@ -60,7 +59,6 @@ class baseband_gen(gr.basic_block):
         self.checksum_offset = checksum_offset
         self.pad_byte_count = pad_byte_count
         self.tx_spacing = tx_spacing
-        self.quiet_between_tx = quiet_between_tx
 
         # register the message port
         self.message_port_register_out(pmt.intern('out'))
@@ -89,7 +87,6 @@ class baseband_gen(gr.basic_block):
                 tx_bits.append(1 if preamble_bit_high else 0)
                 preamble_bit_high = not preamble_bit_high
             # add sync word
-            print(self.sync_word)
             for nibble in self.sync_word:
                 if nibble == '0':
                     tx_bits += (0, 0, 0, 0)

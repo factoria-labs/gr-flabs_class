@@ -5,7 +5,7 @@ category: '[Factoria Labs Blocks]'
 
 templates:
   imports: from gnuradio import flabs_class
-  make: flabs_class.baseband_gen(${preamble_bit_count}, ${sync_word}, ${payloads}, ${encode_zero}, ${encode_one}, ${checksum_enable}, ${checksum_offset}, ${pad_byte_count}, ${tx_spacing}, ${quiet_between_tx})
+  make: flabs_class.baseband_gen(${preamble_bit_count}, ${sync_word}, ${payloads}, ${encode_zero}, ${encode_one}, ${checksum_enable}, ${checksum_offset}, ${pad_byte_count}, ${tx_spacing})
 
 #  Make one 'parameters' list entry for every parameter you want settable from the GUI.
 #     Keys include:
@@ -52,12 +52,6 @@ parameters:
   label: Transmission Spacing (seconds)
   dtype: float
   default: 0.001
-- id: quiet_between_tx
-  label: Quiet Between Transmissions
-  dtype: enum
-  default: '1'
-  options: [ '0', '1' ]
-  option_labels: [ 'Transmit Zeros Between TX', 'Quiet Between TX' ]
 
 #  Make one 'inputs' list entry per input and one 'outputs' list entry per output.
 #  Keys include:
