@@ -43,7 +43,8 @@ class baseband_gen(gr.basic_block):
                  checksum_enable,
                  checksum_offset,
                  pad_byte_count,
-                 tx_spacing):
+                 tx_spacing,
+                 repeat):
         gr.basic_block.__init__(self,
             name="baseband_gen",
             in_sig=None,
@@ -59,6 +60,7 @@ class baseband_gen(gr.basic_block):
         self.checksum_offset = checksum_offset
         self.pad_byte_count = pad_byte_count
         self.tx_spacing = tx_spacing
+        self.repeat = repeat
 
         # register the message port
         self.message_port_register_out(pmt.intern('out'))
@@ -155,7 +157,10 @@ class baseband_gen(gr.basic_block):
             if payload_index < len(self.payloads) - 1:
                 payload_index += 1
             else:
-                payload_index = 0
+                if self.repeat:
+                    payload_index = 0
+                else:
+                    self.finished = True
 
     def stop(self):
         self.finished = True
