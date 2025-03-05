@@ -81,11 +81,12 @@ class baseband_gen(gr.basic_block):
             # add pre-padding
             tx_bits += [0, ] * (8 * self.pad_byte_count)
 
-            # add preamble
+            # add preamble, starting with 0 bit (0101... vs 1010...)
             preamble_bit_high = False
             for _ in range(self.preamble_bit_count):
                 tx_bits.append(1 if preamble_bit_high else 0)
                 preamble_bit_high = not preamble_bit_high
+
             # add sync word
             for nibble in self.sync_word:
                 if nibble == '0':

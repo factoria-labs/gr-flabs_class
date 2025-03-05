@@ -124,7 +124,7 @@ class pdu_decode(gr.basic_block):
     """
     docstring for block pdu_decode
     """
-    def __init__(self, one_seq, zero_seq):
+    def __init__(self, zero_seq, one_seq):
         gr.basic_block.__init__(self,
             name="pdu_decode",
             in_sig=None,
