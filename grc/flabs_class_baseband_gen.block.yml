@@ -1,0 +1,75 @@
+id: flabs_class_baseband_gen
+label: Baseband Message Generator
+flags: [ python ]
+category: '[Factoria Labs Blocks]'
+
+templates:
+  imports: from gnuradio import flabs_class
+  make: flabs_class.baseband_gen(${preamble_bit_count}, ${sync_word}, ${payloads}, ${encode_zero}, ${encode_one}, ${checksum_enable}, ${checksum_offset}, ${pad_byte_count}, ${tx_spacing}, ${quiet_between_tx})
+
+#  Make one 'parameters' list entry for every parameter you want settable from the GUI.
+#     Keys include:
+#     * id (makes the value accessible as keyname, e.g. in the make entry)
+#     * label (label shown in the GUI)
+#     * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
+#     * default
+parameters:
+- id: preamble_bit_count
+  label: Preamble Bit Count
+  dtype: int
+  default: 16
+- id: sync_word
+  label: Sync Word
+  dtype: string
+  default: "2dd4"
+- id: payloads
+  label: Payloads
+  dtype: ''
+  default: ((0x12, 0x34, 0x56, 0x78, 0x9a), (0xbc, 0xde, 0xf0))
+- id: encode_zero
+  label: Encoding for Zero-valued Bits
+  dtype: ''
+  default: (0, )
+- id: encode_one
+  label: Encoding for One-valued Bits
+  dtype: ''
+  default: (1, )
+- id: checksum_enable
+  label: Checksum Enable
+  dtype: enum
+  default: '0'
+  options: ['0', '1']
+  option_labels: ['Checksum Disabled', 'Checksum Enabled']
+- id: checksum_offset
+  label: Checksum Offset Byte
+  dtype: byte
+  default: 0x00
+- id: pad_byte_count
+  label: Pad Size (bytes)
+  dtype: int
+  default: 2
+- id: tx_spacing
+  label: Transmission Spacing (seconds)
+  dtype: float
+  default: 0.001
+- id: quiet_between_tx
+  label: Quiet Between Transmissions
+  dtype: enum
+  default: '1'
+  options: [ '0', '1' ]
+  option_labels: [ 'Transmit Zeros Between TX', 'Quiet Between TX' ]
+
+#  Make one 'inputs' list entry per input and one 'outputs' list entry per output.
+#  Keys include:
+#      * label (an identifier for the GUI)
+#      * domain (optional - stream or message. Default is stream)
+#      * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
+#      * vlen (optional - data stream vector length. Default is 1)
+#      * optional (optional - set to 1 for optional inputs. Default is 0)
+outputs:
+-   domain: message
+    id: out
+
+#  'file_format' specifies the version of the GRC yml format used in the file
+#  and should usually not be changed.
+file_format: 1

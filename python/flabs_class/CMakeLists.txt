@@ -25,7 +25,10 @@ gr_python_install(FILES __init__.py
     tx_tuner.py
     rx_tuner.py
     ook_mod.py
-    ook_demod.py DESTINATION ${GR_PYTHON_DIR}/gnuradio/flabs_class)
+    ook_demod.py
+    enc.py
+    baseband_gen.py
+    bit_list_utils.py DESTINATION ${GR_PYTHON_DIR}/gnuradio/flabs_class)
 
 ########################################################################
 # Handle the unit tests
@@ -46,3 +49,4 @@ GR_ADD_TEST(qa_rx_tuner ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_rx_t
 GR_ADD_TEST(qa_ook_mod ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_ook_mod.py)
 GR_ADD_TEST(qa_tx_tuner ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_tx_tuner.py)
 GR_ADD_TEST(qa_ook_demod ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_ook_demod.py)
+GR_ADD_TEST(qa_baseband_gen ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_baseband_gen.py)
