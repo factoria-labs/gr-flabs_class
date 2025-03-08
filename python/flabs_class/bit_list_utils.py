@@ -62,3 +62,10 @@ def bit_list_to_byte_list(bits):
         byte = bit_list_to_uint(bits_in_byte)
         byte_list.append(byte)
     return byte_list
+
+
+# convert an integer into a list of four bytes with rollover
+def int_to_u8_list(int_val):
+    if int_val < 0:
+        raise ValueError("integer_to_u8_list() only accepts positive integers")
+    return [int_val >> 24 & 0xFF, int_val >> 16 & 0xFF, int_val >> 8 & 0xFF, int_val & 0xFF]

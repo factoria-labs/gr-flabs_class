@@ -13,4 +13,6 @@ install(FILES
     flabs_class_ook_mod.block.yml
     flabs_class_tx_tuner.block.yml
     flabs_class_ook_demod.block.yml
-    flabs_class_baseband_gen.block.yml DESTINATION share/gnuradio/grc/blocks)
+    flabs_class_baseband_gen.block.yml
+    flabs_class_payload_strobe.block.yml
+    flabs_class_simple_formatter.block.yml DESTINATION share/gnuradio/grc/blocks)

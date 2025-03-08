@@ -28,6 +28,8 @@ gr_python_install(FILES __init__.py
     ook_demod.py
     enc.py
     baseband_gen.py
+    payload_strobe.py
+    simple_formatter.py
     bit_list_utils.py DESTINATION ${GR_PYTHON_DIR}/gnuradio/flabs_class)
 
 ########################################################################
@@ -50,3 +52,5 @@ GR_ADD_TEST(qa_ook_mod ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_ook_m
 GR_ADD_TEST(qa_tx_tuner ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_tx_tuner.py)
 GR_ADD_TEST(qa_ook_demod ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_ook_demod.py)
 GR_ADD_TEST(qa_baseband_gen ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_baseband_gen.py)
+GR_ADD_TEST(qa_payload_strobe ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_payload_strobe.py)
+GR_ADD_TEST(qa_simple_formatter ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_simple_formatter.py)
