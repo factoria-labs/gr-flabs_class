@@ -39,7 +39,8 @@ class simple_formatter(gr.basic_block):
                  sync_word,
                  encode_zero,
                  encode_one,
-                 pad_byte_count):
+                 pad_byte_count,
+                 length_field):
         gr.basic_block.__init__(self,
             name="simple_formatter",
             in_sig=None,
@@ -50,6 +51,7 @@ class simple_formatter(gr.basic_block):
         self.encode_zero = encode_zero
         self.encode_one = encode_one
         self.pad_byte_count = pad_byte_count
+        self.length_field = length_field
 
         # register the message ports
         self.message_port_register_in(pmt.intern('in'))
@@ -116,6 +118,15 @@ class simple_formatter(gr.basic_block):
 
         # convert payload to bits
         payload_bits = blu.byte_list_to_bit_list(payload_bytes)
+
+        # add length field if enabled
+        if self.length_field:
+            # compute encoded payload length
+            payload_length = len(payload_bytes) * len(self.encode_zero)
+            payload_length_bytes = blu.int_to_u8_list(payload_length)
+            length_header_bytes = []
+            length_header_bytes += 2 * payload_length_bytes[2:]
+            tx_bits += blu.byte_list_to_bit_list(length_header_bytes)
 
         # encode the payload bits
         encoded_payload_bits = []

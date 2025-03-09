@@ -5,7 +5,7 @@ category: '[Factoria Labs Blocks]'
 
 templates:
   imports: from gnuradio import flabs_class
-  make: flabs_class.simple_formatter(${preamble_bit_count}, ${sync_word}, ${encode_zero}, ${encode_one}, ${pad_byte_count})
+  make: flabs_class.simple_formatter(${preamble_bit_count}, ${sync_word}, ${encode_zero}, ${encode_one}, ${pad_byte_count}, ${length_enable})
 
 #  Make one 'parameters' list entry for every parameter you want settable from the GUI.
 #     Keys include:
@@ -23,18 +23,23 @@ parameters:
   dtype: string
   default: "2dd4"
 - id: encode_zero
-  label: Encoding for Zero-valued Bits
+  label: Encoding for Zeros
   dtype: ''
   default: (0, )
 - id: encode_one
-  label: Encoding for One-valued Bits
+  label: Encoding for Ones
   dtype: ''
   default: (1, )
 - id: pad_byte_count
   label: Pad Size (bytes)
   dtype: int
   default: 2
-
+- id: length_enable
+  label: Length header
+  dtype: enum
+  default: '0'
+  options: ['0', '1']
+  option_labels: ['Disable', 'Enabled']
 
 #  Make one 'inputs' list entry per input and one 'outputs' list entry per output.
 #  Keys include:

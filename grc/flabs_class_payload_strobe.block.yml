@@ -18,19 +18,19 @@ parameters:
   dtype: ''
   default: ((0x12, 0x34, 0x56, 0x78, 0x9a), (0xbc, 0xde, 0xf0))
 - id: tx_spacing
-  label: Transmission Spacing (seconds)
+  label: Period (seconds)
   dtype: float
-  default: 0.001
+  default: 1
 - id: repeat_count
   label: Repeat Count
   dtype: int
   default: 0
 - id: packet_ctr_enable
-  label: Packet Counter Enable
+  label: Packet Counter
   dtype: enum
   default: '0'
   options: ['0', '1', '2']
-  option_labels: ['Packet Counter Disabled', 'Binary Packet Counter', 'ASCII Packet Counter']
+  option_labels: ['Disabled', 'Binary Counter', 'ASCII Counter']
 
 #  Make one 'inputs' list entry per input and one 'outputs' list entry per output.
 #  Keys include:
