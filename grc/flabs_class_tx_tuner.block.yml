@@ -1,5 +1,5 @@
 id: flabs_class_tx_tuner
-label: tx_tuner
+label: TX Tuner
 flags: [ python ]
 category: '[Factoria Labs Blocks]'
 

@@ -26,7 +26,6 @@ gr_python_install(FILES __init__.py
     rx_tuner.py
     ook_mod.py
     ook_demod.py
-    enc.py
     baseband_gen.py
     payload_strobe.py
     simple_formatter.py

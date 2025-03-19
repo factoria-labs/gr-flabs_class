@@ -1,5 +1,5 @@
 id: flabs_class_rx_tuner
-label: rx_tuner
+label: RX Tuner
 flags: [ python ]
 category: '[Factoria Labs Blocks]'
 

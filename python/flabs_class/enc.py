@@ -1,18 +1,17 @@
-from flabs_utils import bit_list_utils as blu
-
-in_str = "Hello SDR"
-
-in_bytes = blu.ascii_str_to_byte_list(in_str)
-in_bits = blu.byte_list_to_bit_list(in_bytes)
-print(blu.byte_list_to_hex_str(in_bytes))
-print(blu.bit_list_to_bit_str(in_bits))
-
+from gnuradio.flabs_class import bit_list_utils as blu
+from typing import Tuple
 
 def str_to_encoded_bytes(
         input_str: str,
-        one_seq: list[int],
-        zero_seq: list[int],
+        one_seq=None,
+        zero_seq=None,
         pad_val: int = 0) -> list[int]:
+
+    # default is Manchester
+    if zero_seq is None:
+        zero_seq = [1, 0]
+    if one_seq is None:
+        one_seq = [0, 1]
 
     str_bytes = blu.ascii_str_to_byte_list(input_str)
     str_bits = blu.byte_list_to_bit_list(str_bytes)
@@ -36,9 +35,9 @@ def str_to_encoded_bytes(
 def str_to_encoded_tx(
         input_str: str,
         preamble: list[int],
-        sync_seq: list[int],
-        one_seq: list[int],
-        zero_seq: list[int],
+        sync_seq: Tuple[int, ...] = (0x2d, 0xd4),
+        one_seq: Tuple[int, ...] = (0, 1),
+        zero_seq: Tuple[int, ...] = (1, 0),
         num_pad_bits: int = 16,
         pad_val: int = 0) -> list[int]:
     """
@@ -64,7 +63,7 @@ def str_to_encoded_tx(
     # encode the string
     str_bytes = blu.ascii_str_to_byte_list(input_str)
     str_bits = blu.byte_list_to_bit_list(str_bytes)
-    encoded_str_bits = []
+    encoded_str_bits: list[int] = []
     for b in str_bits:
         if b:
             encoded_str_bits += one_seq
@@ -81,9 +80,17 @@ def str_to_encoded_tx(
 
     return out_bits
 
+
 def main():
-    one = [0, 1, 1]
-    zero = [0, 0, 1]
+    in_str = "Hello SDR"
+
+    in_bytes = blu.ascii_str_to_byte_list(in_str)
+    in_bits = blu.byte_list_to_bit_list(in_bytes)
+    print(blu.byte_list_to_hex_str(in_bytes))
+    print(blu.bit_list_to_bit_str(in_bits))
+
+    one = [0, 1]
+    zero = [1, 0]
 
     bits = str_to_encoded_bytes(
         input_str=in_str,

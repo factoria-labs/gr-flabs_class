@@ -34,9 +34,14 @@ class rx_tuner(gr.hier_block2):
     """
     docstring for block rx_tuner
     """
-    def __init__(self, center_freq=100e6, chan_width=150e3, samp_rate_in=4e6, samp_rate_out=200e3, tune_freq=99.1e6):
+    def __init__(self,
+                 samp_rate_in=4e6,
+                 samp_rate_out=200e3,
+                 center_freq=100e6,
+                 tune_freq=99.1e6,
+                 chan_width=150e3):
         gr.hier_block2.__init__(self,
-            "rx_tuner",
+            "RX Tuner",
             gr.io_signature(1, 1, gr.sizeof_gr_complex),  # Input signature
             gr.io_signature(1, 1, gr.sizeof_gr_complex)) # Output signature
 

@@ -35,7 +35,7 @@ class tx_tuner(gr.hier_block2):
     """
     def __init__(self, samp_rate, center_freq, tune_freq):
         gr.hier_block2.__init__(self,
-            "tx_tuner",
+            "Tx Tuner",
             gr.io_signature(1, 1, gr.sizeof_gr_complex),  # Input signature
             gr.io_signature(1, 1, gr.sizeof_gr_complex)) # Output signature
 
