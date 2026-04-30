@@ -108,3 +108,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-04-30T18:30:43Z Follow-up escalation: please assign a concrete implementation ticket now (branch, expected behavior, acceptance criteria). Ready to execute immediately and route to QA after completion.
 
 - 2026-04-30T18:32:09Z Execution readiness update: awaiting concrete ticket assignment; requesting owner ETA for scope handoff today so implementation can start immediately.
+
+- 2026-04-30T18:37:34Z Accountability request: if implementation scope is still pending, please assign blocker ownership explicitly and provide handoff time. Ready to execute immediately on receipt.
