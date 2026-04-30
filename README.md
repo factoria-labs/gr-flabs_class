@@ -94,3 +94,5 @@ file for details.
 ## Test PR
 
 Small docs-only change from LaForge for workflow validation.
+
+- 2026-04-30T16:26:46Z Runner path validation from USS-37
