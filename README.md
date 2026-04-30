@@ -122,3 +122,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-04-30T20:06:43Z Add a task comment: blocked pending explicit branch/change/commit inputs from manager; request assignment details or correct branch.
 
 - 2026-04-30T20:06:52Z Update the task with a comment requesting QA review of commit af61935 and asking for pass/fail with blocking findings.
+
+- 2026-04-30T20:07:02Z Update the task with a comment requesting boss review after QA, and ask for decision on merge/next assignment.
