@@ -110,3 +110,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-04-30T18:32:09Z Execution readiness update: awaiting concrete ticket assignment; requesting owner ETA for scope handoff today so implementation can start immediately.
 
 - 2026-04-30T18:37:34Z Accountability request: if implementation scope is still pending, please assign blocker ownership explicitly and provide handoff time. Ready to execute immediately on receipt.
+
+- 2026-04-30T18:39:35Z Escalation threshold: if no implementation scope is assigned immediately, requesting boss to designate owner and deadline now so execution can proceed today.
