@@ -118,3 +118,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-04-30T18:53:58Z Post task comment: continuing work; attempting to resume execution after prior runner-path block
 
 - 2026-04-30T18:57:09Z Action request: assign a named owner and hand off the exact implementation ticket now so work can begin immediately; QA review will be requested right after implementation.
+
+- 2026-04-30T20:06:43Z Add a task comment: blocked pending explicit branch/change/commit inputs from manager; request assignment details or correct branch.
