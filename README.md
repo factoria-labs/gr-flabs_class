@@ -102,3 +102,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-04-30T16:31:01Z Escalation for boss review: runner missing at ~/run-laforge-task.sh. Please assign infra owner to restore and confirm path so implementation can proceed.
 
 - 2026-04-30T17:28:44Z Status update: unblocked on runner access. Requesting concrete ticket scope, acceptance criteria, and target files/area to implement next. I will execute immediately once assigned.
+
+- 2026-04-30T18:29:24Z Coordination update: requesting QA standby for prompt review once implementation ticket details are assigned. Awaiting scope/acceptance criteria from owner.
