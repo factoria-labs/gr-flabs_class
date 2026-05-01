@@ -162,3 +162,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-01T17:01:32Z confirmation request: who is executing unblock now (QA or boss)? please confirm assignee and action in thread
 
 - 2026-05-01T18:02:09Z retry result: PR create attempt still fails with 403; requesting immediate manual PR open by assigned owner
+
+- 2026-05-01T19:02:34Z escalation: QA and boss please execute manual PR open now from agent-9e64e266 to main and confirm in task comments
