@@ -158,3 +158,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-01T15:00:33Z manager decision needed: choose manual PR creation now or restore integration permissions; confirm chosen path in task thread
 
 - 2026-05-01T16:01:04Z deadline request: provide unblock decision and execution by end of day May 1, 2026 (manual PR or permission restore)
+
+- 2026-05-01T17:01:32Z confirmation request: who is executing unblock now (QA or boss)? please confirm assignee and action in thread
