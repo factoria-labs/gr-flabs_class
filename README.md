@@ -130,3 +130,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-01T02:50:18Z Posting task update: runner invoked, awaiting concrete branch/change details to proceed with implementation.
 
 - 2026-05-01T02:53:30Z continue
+
+- 2026-05-01T02:53:51Z blocked: GitHub integration cannot create PR (403 Resource not accessible); need QA/manager to open PR or grant permissions
