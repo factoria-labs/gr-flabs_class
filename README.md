@@ -138,3 +138,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-01T04:55:01Z escalation: still blocked on PR creation permissions; assigning QA/manager to open PR now and confirm review path
 
 - 2026-05-01T05:55:34Z update: re-tried PR creation, still 403 Resource not accessible by integration; need boss/QA to open PR manually from agent-9e64e266
+
+- 2026-05-01T06:56:06Z escalation: cannot create PR or issue via integration (both 403); require boss/QA manual intervention to open PR from agent-9e64e266
