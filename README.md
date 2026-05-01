@@ -152,3 +152,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-01T11:58:34Z status: pending QA/boss manual PR creation or permission fix; work is ready and waiting on unblock owner response
 
 - 2026-05-01T12:59:04Z request: unblock owner please provide concrete ETA for manual PR creation or permission restoration; cannot complete until this is done
+
+- 2026-05-01T13:59:41Z escalation: please acknowledge unblock ownership now (QA or boss) and execute manual PR open for agent-9e64e266->main
