@@ -156,3 +156,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-01T13:59:41Z escalation: please acknowledge unblock ownership now (QA or boss) and execute manual PR open for agent-9e64e266->main
 
 - 2026-05-01T15:00:33Z manager decision needed: choose manual PR creation now or restore integration permissions; confirm chosen path in task thread
+
+- 2026-05-01T16:01:04Z deadline request: provide unblock decision and execution by end of day May 1, 2026 (manual PR or permission restore)
