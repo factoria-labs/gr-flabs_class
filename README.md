@@ -134,3 +134,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-01T02:53:51Z blocked: GitHub integration cannot create PR (403 Resource not accessible); need QA/manager to open PR or grant permissions
 
 - 2026-05-01T03:54:31Z request: QA and boss review needed; please open PR from agent-9e64e266 to main or grant PR-create permission; blocking completion until one is done
+
+- 2026-05-01T04:55:01Z escalation: still blocked on PR creation permissions; assigning QA/manager to open PR now and confirm review path
