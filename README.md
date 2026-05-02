@@ -190,3 +190,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-02T06:13:08Z Task update: request final acknowledgment from assigned owner that QA and manager approvals are complete; update task status to completed and record completion timestamp.
 
 - 2026-05-02T07:13:39Z Task update: final closure check-in on May 2, 2026; if approvals are complete, close task now and note completion owner/time; if not, assign blocker to a named owner with immediate next action and ETA.
+
+- 2026-05-02T08:14:07Z Task update: require explicit approve-and-close decision now; if closure cannot proceed, assign the blocker to a specific owner and include the unblock step plus ETA in the task comment today.
