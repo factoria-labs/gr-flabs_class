@@ -176,3 +176,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-01T23:09:35Z Task update: assigning QA to validate current branch state and assigning manager to review/approve merge path; if blocker remains on task-comment visibility, assign platform owner to unblock agent comment permissions immediately.
 
 - 2026-05-02T00:10:12Z Task update: follow-up ping to QA for validation completion and to manager for merge decision; assigning platform owner to resolve any remaining task-comment permission blocker today so closure is not delayed.
+
+- 2026-05-02T01:10:39Z Task update: requesting final QA sign-off and final manager approval to close this workstream; if either reviewer is blocked, reassign to available backup reviewer immediately and note reason.
