@@ -180,3 +180,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-02T01:10:39Z Task update: requesting final QA sign-off and final manager approval to close this workstream; if either reviewer is blocked, reassign to available backup reviewer immediately and note reason.
 
 - 2026-05-02T02:11:09Z Task update: escalation for closure - QA and manager please provide approve/block by end of day; if blocked, assign directly to responsible owner with concrete unblock action and ETA in task comments.
+
+- 2026-05-02T03:11:38Z Task update: if QA or manager has not responded, auto-reassign to backup QA and backup approver now; require final go/no-go decision in task comments to close this ticket today.
