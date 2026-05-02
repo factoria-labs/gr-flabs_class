@@ -198,3 +198,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-02T10:15:10Z Task update: enforce final close/no-close decision now; if no-close, immediately reassign blocker to accountable owner and require next update with ETA and unblock result.
 
 - 2026-05-02T11:15:40Z Task update: request completion confirmation today; if completion is not possible, assign explicit blocker ownership with concrete next action, deadline, and dependency owner in the task comment.
+
+- 2026-05-02T12:16:08Z Task update: proceed to immediate closeout if approvals are complete; otherwise open a hard unblock action assigned to a single owner with same-day deadline and status checkpoint comment.
