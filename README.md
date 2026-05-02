@@ -200,3 +200,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-02T11:15:40Z Task update: request completion confirmation today; if completion is not possible, assign explicit blocker ownership with concrete next action, deadline, and dependency owner in the task comment.
 
 - 2026-05-02T12:16:08Z Task update: proceed to immediate closeout if approvals are complete; otherwise open a hard unblock action assigned to a single owner with same-day deadline and status checkpoint comment.
+
+- 2026-05-02T13:16:39Z Task update: provide final completion state now; if not complete, assign one unblock owner, include due time, and confirm next status update time in task comments.
