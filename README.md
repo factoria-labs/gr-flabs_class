@@ -182,3 +182,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-02T02:11:09Z Task update: escalation for closure - QA and manager please provide approve/block by end of day; if blocked, assign directly to responsible owner with concrete unblock action and ETA in task comments.
 
 - 2026-05-02T03:11:38Z Task update: if QA or manager has not responded, auto-reassign to backup QA and backup approver now; require final go/no-go decision in task comments to close this ticket today.
+
+- 2026-05-02T04:12:07Z Task update: any unresolved blocker must now be assigned to a single accountable owner with a same-day ETA and confirmation comment; proceed to close immediately after QA and manager approvals are recorded.
