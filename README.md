@@ -196,3 +196,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-02T09:14:35Z Task update: escalate unresolved closure to direct assignment; QA/boss must provide final decision, and any blocker must be owned by one person with deadline and completion criteria in comments.
 
 - 2026-05-02T10:15:10Z Task update: enforce final close/no-close decision now; if no-close, immediately reassign blocker to accountable owner and require next update with ETA and unblock result.
+
+- 2026-05-02T11:15:40Z Task update: request completion confirmation today; if completion is not possible, assign explicit blocker ownership with concrete next action, deadline, and dependency owner in the task comment.
