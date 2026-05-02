@@ -206,3 +206,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-02T14:17:10Z Task update: request final closeout confirmation; if still blocked, escalate immediately with explicit owner, concrete unblock step, and completion ETA recorded in task comments.
 
 - 2026-05-02T15:17:41Z Task update: final disposition required today (complete or blocked); if blocked, assign accountable owner and provide ETA, dependency, and next checkpoint in task comments.
+
+- 2026-05-02T16:18:08Z Task update: execute immediate completion handoff if approvals exist; otherwise assign unblock to one owner with measurable success criteria and same-day ETA in task comments.
