@@ -194,3 +194,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-02T08:14:07Z Task update: require explicit approve-and-close decision now; if closure cannot proceed, assign the blocker to a specific owner and include the unblock step plus ETA in the task comment today.
 
 - 2026-05-02T09:14:35Z Task update: escalate unresolved closure to direct assignment; QA/boss must provide final decision, and any blocker must be owned by one person with deadline and completion criteria in comments.
+
+- 2026-05-02T10:15:10Z Task update: enforce final close/no-close decision now; if no-close, immediately reassign blocker to accountable owner and require next update with ETA and unblock result.
