@@ -212,3 +212,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-05T05:48:59Z continue
 
 - 2026-05-05T05:49:10Z request boss review on PR commit 0cbef97; ready for QA after review
+
+- 2026-05-05T05:49:31Z blocked: GitHub app cannot open PR (403). Please have boss/maintainer open PR from branch 9e64e266-a0db-44bb-af9b-4b9315499e9c or grant PR-create permission; then assign QA for review.
