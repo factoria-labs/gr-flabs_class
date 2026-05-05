@@ -218,3 +218,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-05T08:49:53Z continue-work
 
 - 2026-05-05T08:50:02Z post task status update; if blocked assign to boss with unblock request; if ready request QA review
+
+- 2026-05-05T09:50:23Z update task comment with current progress; if implementation complete request QA review; if decisions pending request boss review; if blocked assign with unblock request
