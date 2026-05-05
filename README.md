@@ -224,3 +224,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-05T10:50:54Z post task comment with current status; if all acceptance criteria met ask QA to sign off and boss to review for closure; if anything missing assign to blocker owner with exact ask
 
 - 2026-05-05T11:51:28Z identify next concrete ticket task, implement required repo change, then comment status and request QA/boss review or assign blocker owner as needed
+
+- 2026-05-05T12:52:00Z verify completion against acceptance criteria; if complete request QA and boss approval and mark ready to close; if not complete assign blocker with explicit ask and ETA request
