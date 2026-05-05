@@ -216,3 +216,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-05T05:49:31Z blocked: GitHub app cannot open PR (403). Please have boss/maintainer open PR from branch 9e64e266-a0db-44bb-af9b-4b9315499e9c or grant PR-create permission; then assign QA for review.
 
 - 2026-05-05T08:49:53Z continue-work
+
+- 2026-05-05T08:50:02Z post task status update; if blocked assign to boss with unblock request; if ready request QA review
