@@ -246,3 +246,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-05T21:56:28Z add current status comment with owner and ETA; if complete request QA and boss review, else assign blocker owner with concrete unblock request
 
 - 2026-05-05T22:56:57Z post another progress checkpoint comment and execute review/escalation routing according to current state
+
+- 2026-05-05T23:57:27Z write current progress comment, identify immediate next owner action, and route to QA/boss/blocker owner without delay
