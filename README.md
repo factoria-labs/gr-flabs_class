@@ -230,3 +230,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-05T13:52:26Z update task with concrete progress, next action, and owner; request QA if code-complete, request boss review for approval, otherwise assign blocker with clear unblock request
 
 - 2026-05-05T14:52:56Z post current status comment, identify next concrete step, and route to QA/boss/blocker owner with explicit ask
+
+- 2026-05-05T15:53:28Z add task comment with done/in-progress/blocked state, assign any blocker to owner with concrete unblock request, and request QA or boss review as applicable
