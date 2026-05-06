@@ -272,3 +272,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-06T11:03:00Z post latest progress checkpoint and immediate next owner action; route to QA/boss review or blocker assignee with explicit request
 
 - 2026-05-06T12:03:33Z update task with fresh status, blockers, and next owner action; request QA/boss review when applicable or assign blocker owner with explicit ask
+
+- 2026-05-06T13:04:05Z append status comment with completion signal or blockers and assign immediate next action owner; request QA/boss review as needed
