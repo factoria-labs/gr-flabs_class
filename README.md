@@ -278,3 +278,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-06T14:04:31Z post latest task heartbeat comment, include next action owner, and route to QA/boss or blocker assignee with concrete ask
 
 - 2026-05-06T15:05:07Z add current progress and blocker snapshot to task comment, then route immediate follow-up to QA/boss/blocker owner with explicit request
+
+- 2026-05-06T16:05:30Z post latest status heartbeat comment with next concrete step and owner; route to QA/boss review or blocker assignee immediately
