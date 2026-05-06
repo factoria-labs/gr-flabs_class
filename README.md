@@ -264,3 +264,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-06T07:00:58Z post latest status comment with next owner action; if complete request QA and boss review, otherwise assign blocker with exact unblock request
 
 - 2026-05-06T08:01:29Z write current progress comment and route immediate next step to QA/boss/blocker owner with explicit ask
+
+- 2026-05-06T09:02:01Z post active status comment with next concrete step and owner; request QA/boss review or assign blocker owner with specific unblock request
