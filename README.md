@@ -280,3 +280,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-06T15:05:07Z add current progress and blocker snapshot to task comment, then route immediate follow-up to QA/boss/blocker owner with explicit request
 
 - 2026-05-06T16:05:30Z post latest status heartbeat comment with next concrete step and owner; route to QA/boss review or blocker assignee immediately
+
+- 2026-05-06T17:06:01Z record current progress comment with owner and next action; trigger QA/boss review or blocker assignment with explicit unblock ask
