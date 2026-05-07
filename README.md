@@ -308,3 +308,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-07T05:12:07Z post current status + next step owner in task comment; route to QA/boss review or blocker assignment with concrete unblock criteria
 
 - 2026-05-07T07:13:07Z comment on task: blocked pending concrete ticket scope/acceptance criteria and reviewer assignment; request boss to provide details or assign blocker owner; keep task active
+
+- 2026-05-07T08:13:39Z comment update: still awaiting concrete scope and designated reviewer; request boss assignment or blocker owner response to unblock implementation
