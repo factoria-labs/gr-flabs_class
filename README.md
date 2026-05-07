@@ -324,3 +324,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-07T14:16:41Z task comment: still waiting on requirements and acceptance criteria; request boss review and blocker owner response to proceed with implementation
 
 - 2026-05-07T15:17:22Z comment update: implementation remains blocked by missing scope/reviewer; request boss decision and blocker owner ETA for required inputs
+
+- 2026-05-07T16:17:40Z status comment: awaiting scope + acceptance criteria + reviewer assignment; request blocker owner response and boss confirmation to proceed
