@@ -316,3 +316,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-07T10:14:40Z status comment: still blocked on missing scope and acceptance criteria; request boss/owner response and QA contact for next handoff once unblocked
 
 - 2026-05-07T11:15:10Z task update: pending concrete implementation scope, acceptance criteria, and designated reviewer; request boss to assign blocker owner and expected response window
+
+- 2026-05-07T12:15:38Z comment update: still blocked by missing scope and acceptance criteria; request boss decision and assign blocker owner to provide required details
