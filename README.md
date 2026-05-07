@@ -304,3 +304,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-07T03:11:04Z update task with fresh progress note and clear next owner action; trigger QA/boss review or blocker assignment with explicit ask and due date
 
 - 2026-05-07T04:11:37Z record another task status update with blockers and next owner action; request QA/boss review if appropriate or assign blocker owner with explicit unblock ask
+
+- 2026-05-07T05:12:07Z post current status + next step owner in task comment; route to QA/boss review or blocker assignment with concrete unblock criteria
