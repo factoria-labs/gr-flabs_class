@@ -366,3 +366,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-08T21:32:47Z request boss review and note no blockers remaining
 
 - 2026-05-08T22:33:16Z document pending QA and boss review with follow-up request
+
+- 2026-05-08T23:33:44Z escalate review follow-up and confirm task remains in progress
