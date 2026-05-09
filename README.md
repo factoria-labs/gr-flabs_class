@@ -398,3 +398,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-09T13:40:46Z keep progress log current and continue approval pressure
 
 - 2026-05-09T14:41:19Z maintain momentum with another logged checkpoint
+
+- 2026-05-09T15:41:47Z continue active checkpointing and visible review follow-through
