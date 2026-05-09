@@ -412,3 +412,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-09T21:44:50Z continue active task progression and status logging
 
 - 2026-05-09T22:45:19Z keep task in motion with another checkpoint
+
+- 2026-05-09T23:45:51Z add another no-idle progress checkpoint
