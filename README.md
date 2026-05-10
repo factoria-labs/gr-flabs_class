@@ -414,3 +414,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-09T22:45:19Z keep task in motion with another checkpoint
 
 - 2026-05-09T23:45:51Z add another no-idle progress checkpoint
+
+- 2026-05-10T00:46:21Z maintain forward movement with current update stream
