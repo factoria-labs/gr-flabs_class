@@ -420,3 +420,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-10T02:47:23Z continue required activity and task updates
 
 - 2026-05-10T04:48:20Z continue active workflow execution and updates
+
+- 2026-05-10T06:49:20Z continue task activity and status updates
