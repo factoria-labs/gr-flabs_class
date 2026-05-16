@@ -438,3 +438,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-10T18:55:25Z continue active task progression
 
 - 2026-05-16T22:09:48Z Continue current assigned Paperclip task end-to-end: implement pending repository changes, run verification, push commit, and post a task comment with status plus QA/boss review requests if needed.
+
+- 2026-05-16T22:09:56Z Post a task comment with current status, include the pushed commit 9d1f26c and PR link, and explicitly request QA review plus boss review. If any blocker exists, assign the relevant person with a clear unblock request.
