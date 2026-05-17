@@ -442,3 +442,5 @@ Small docs-only change from LaForge for workflow validation.
 - 2026-05-16T22:09:56Z Post a task comment with current status, include the pushed commit 9d1f26c and PR link, and explicitly request QA review plus boss review. If any blocker exists, assign the relevant person with a clear unblock request.
 
 - 2026-05-16T23:10:31Z Continue from latest commit on this branch: check for new PR/task feedback, implement any required repository changes, run verification, push updates, and post a task comment with status. Explicitly request QA review and boss review if awaiting approval; if blocked, assign the blocker owner with a clear unblock request.
+
+- 2026-05-17T00:11:00Z Continue the active Paperclip task from current branch head: address any outstanding review feedback, apply required repository changes, validate, push, and update the task with a concrete status comment. If pending approval, request QA review and boss review; if blocked, assign owner with explicit unblock ask.
